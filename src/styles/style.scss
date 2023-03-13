@@ -1,0 +1,33 @@
+@import url('https://fonts.google.com/specimen/Overpass?preview.text_type=custom');
+@import url('https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom');
+
+* {
+  font-family: Ubuntu;
+}
+
+p {
+  font-size: 16px;
+}
+
+#basic-nav-dropdown {
+  color: hsl(0, 0%, 100%);
+  margin-right: 30px;
+}
+
+.rounded-pill {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: transparent;
+  width: 150px;
+}
+
+.border-white {
+  border-color: hsl(0, 0%, 100%);
+}
+
+.white {
+  color: hsl(356, 100%, 66%);
+  background-color: hsl(0, 0%, 100%);
+  border-color: hsl(0, 0%, 100%);
+}
