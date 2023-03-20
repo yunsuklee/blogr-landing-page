@@ -1,67 +1,18 @@
 @import url('https://fonts.google.com/specimen/Overpass?preview.text_type=custom');
 @import url('https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom');
+@import 'header';
+@import 'body';
+@import 'footer';
 
 * {
   font-family: Ubuntu;
 }
 
-p {
-  font-size: 16px;
+h2 {
   margin-bottom: 0;
 }
 
-#basic-nav-dropdown {
-  color: hsl(240, 2%, 90%);
-  font-weight: 700;
-  margin-right: 30px;
-  position: relative;
-  border: 2px solid transparent;
-  transition: all 300ms ease-out;
-}
-
-.dropdown-item:hover {
-  background-image: none;
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(208, 49%, 24%);
-  font-weight: 500;
-}
-
-#basic-nav-dropdown:hover {
-  color: hsl(0, 0%, 100%);
-  border-bottom: 2px solid hsl(0, 0%, 100%);
-}
-
-.dropdown-toggle::after {
-  display: none;
-}
-
-.rounded-pill,
-.rounded-pill:hover {
+p {
   font-size: 16px;
-  font-weight: 700;
-  background-color: transparent;
-  border-color: transparent;
-  width: 150px;
-  height: 50px;
-}
-
-.border-white {
-  border-color: hsl(0, 0%, 100%);
-}
-
-.white,
-.border-white:hover {
-  color: hsl(356, 100%, 66%);
-  background-color: hsl(0, 0%, 100%);
-  border-color: hsl(0, 0%, 100%);
-}
-
-.white:hover {
-  color: hsl(0, 0%, 100%);
-  background-color: hsla(240, 2%, 79%, 0.3);
-  border-color: hsla(240, 2%, 79%, 0.1);
-}
-
-#arrow {
-  margin-left: 5px;
+  margin-bottom: 0;
 }

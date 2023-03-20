@@ -36,7 +36,7 @@ const Header = ({ width }: Props) => {
   return (
     <header style={ headerStyle }>
       <Navbar className='h-25' expand='xxl'>
-        <Container>
+        <Container className='px-5'>
           <Navbar.Brand>
             <h2 className='me-5 text-white'>Blogr</h2>
           </Navbar.Brand>

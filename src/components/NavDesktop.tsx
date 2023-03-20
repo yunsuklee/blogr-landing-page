@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container, Nav, NavDropdown } from 'react-bootstrap'
 
-import ArrowIcon from '../assets/IconArrow'
+import ArrowIcon from '../assets/ArrowIcon'
 
 const NavDesktop = () => {
   const navProductTitle = (<p>Product <ArrowIcon /></p>)
@@ -10,7 +10,7 @@ const NavDesktop = () => {
 
   return (
     <>
-      <Nav>
+      <Nav className='me-auto'>
         <NavDropdown title={navProductTitle} id='basic-nav-dropdown'>
           <NavDropdown.Item href='#action/3.1'>
             Frontend
