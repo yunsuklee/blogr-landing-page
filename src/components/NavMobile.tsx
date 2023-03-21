@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, Navbar, NavDropdown, Container, Button } from 'react-bootstrap'
+import { Nav, Navbar, NavDropdown, Button } from 'react-bootstrap'
 
 import ArrowIconDark from '../assets/ArrowIconDark'
 

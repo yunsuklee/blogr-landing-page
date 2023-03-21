@@ -1,0 +1,15 @@
+main {
+  width: 100%;
+  height: 2000px;
+  background-image: url("../assets/illustration-editor-desktop.svg");
+  background-position: 128% 5%;
+  background-repeat: no-repeat;
+
+  h2, h3 {
+    color: hsl(208, 49%, 24%);
+  }
+
+  p {
+    line-height: 30px;
+  }
+}

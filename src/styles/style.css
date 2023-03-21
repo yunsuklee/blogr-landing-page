@@ -1,4 +1,3 @@
-@import url("https://fonts.google.com/specimen/Overpass?preview.text_type=custom");
 @import url("https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom");
 #basic-nav-dropdown {
   color: hsl(240, 2%, 90%);
@@ -145,6 +144,20 @@
     background: none;
   }
 }
+main {
+  width: 100%;
+  height: 2000px;
+  background-image: url("../assets/illustration-editor-desktop.svg");
+  background-position: 128% 5%;
+  background-repeat: no-repeat;
+}
+main h2, main h3 {
+  color: hsl(208, 49%, 24%);
+}
+main p {
+  line-height: 30px;
+}
+
 * {
   font-family: Ubuntu;
 }
