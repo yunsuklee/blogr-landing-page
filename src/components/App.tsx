@@ -2,7 +2,8 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 
 import Header from './Header'
-import Body from './Body'
+import BodyDesktop from './BodyDesktop'
+import BodyMobile from './BodyMobile'
 import Footer from './Footer'
 
 const App = () => {
@@ -14,6 +15,14 @@ const App = () => {
     }
     window.addEventListener('resize', handleResize)
   })
+
+  const Body = () => {
+    if (width > 1440) {
+      return <BodyDesktop />
+    } else {
+      return <BodyMobile />
+    }
+  }
 
   return (
     <div>

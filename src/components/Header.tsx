@@ -3,6 +3,7 @@ import { Container, Navbar, Button } from 'react-bootstrap'
 
 import NavDesktop from './NavDesktop'
 import NavMobile from './NavMobile'
+import Logo from '../assets/Logo'
 
 interface Props {
   width: number
@@ -38,7 +39,7 @@ const Header = ({ width }: Props) => {
       <Navbar className='h-25' expand='xxl'>
         <Container>
           <Navbar.Brand>
-            <h2 className='me-5 text-white'>Blogr</h2>
+            <Logo />
           </Navbar.Brand>
           <Nav />
         </Container>

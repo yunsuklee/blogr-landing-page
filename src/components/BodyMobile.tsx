@@ -1,14 +1,14 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
-const Body = () => {
+const BodyMobile = () => {
   return (
-    <main className='pt-5'>
-      <article className='w-100 mt-5 pt-5'>
-        <h2 className='text-center mb-5 h1'>Designed for the future</h2>
-        <Container className='pt-5'>
-          <div className='w-50 pt-4 pr-5'>
-            <h3 className='mb-4'>
+    <main>
+      <h2 className='text-center mt-5 h1'>Designed for the future</h2>
+      <article className='w-100' id='first'>
+        <Container className='px-4'>
+          <div className='w-100 text-center'>
+            <h3 className='mb-4 h2'>
               Introducing an extensible editor
             </h3>
             <p>
@@ -18,7 +18,7 @@ const Body = () => {
               change the looks of a blog.
             </p>
           </div>
-          <div className='w-50 mt-5 pr-5'>
+          <div className='mt-5 w-100 text-center'>
             <h3 className='mb-4'>
               Robust content management
             </h3>
@@ -39,4 +39,4 @@ const Body = () => {
   )
 }
 
-export default Body
+export default BodyMobile

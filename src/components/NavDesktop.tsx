@@ -10,7 +10,7 @@ const NavDesktop = () => {
 
   return (
     <>
-      <Nav className='me-auto'>
+      <Nav>
         <NavDropdown title={navProductTitle} id='basic-nav-dropdown'>
           <NavDropdown.Item href='#action/3.1'>
             Frontend
