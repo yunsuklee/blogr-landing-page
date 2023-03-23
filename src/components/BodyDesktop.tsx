@@ -29,10 +29,19 @@ const BodyDesktop = () => {
           </div>
         </Container>
       </article>
-      <article>
-
+      <article className="d-flex" id="second">
+        <figure className="mx-5">
+          <div></div>
+        </figure>
+        <div className="d-flex flex-column px-5 justify-content-center">
+          <h3 className="h2 mb-4 px-5 mx-5">State of the Art infrastructure</h3>
+          <p className="w-75 px-5 mx-5">
+            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+          </p>
+        </div>
       </article>
-      <article>
+      <article id="third">
 
       </article>
     </main>
