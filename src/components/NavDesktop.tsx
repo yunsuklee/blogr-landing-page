@@ -43,7 +43,7 @@ const NavDesktop = () => {
         <Button className='white btn-lg rounded-pill'>
           Sign Up
         </Button>
-        <Button className='btn-lg me-3 rounded-pill'>
+        <Button className='btn-lg rounded-pill'>
           Login
         </Button>
       </Container>

@@ -1,6 +1,5 @@
 main {
   width: 100%;
-  height: 200vh;
   background-image: url("../assets/illustration-editor-desktop.svg");
   background-position: 128% 5%;
   background-repeat: no-repeat;
@@ -52,10 +51,28 @@ main {
   }
 }
 
+#third {
+  height: 1000px;
+
+  figure {
+    position: relative;
+    overflow: visible;
+
+    div {
+      position: absolute;
+      width: 100%;
+      height: 250%;
+      top: -60%;
+      background-image: url("../assets/illustration-laptop-desktop.svg");
+      background-repeat: no-repeat;
+    }
+  }
+}
+
 @media (max-width: 1440px) {
   main {
     background-image: url("../assets/illustration-editor-mobile.svg");
-    background-position: 0% 5%;
+    background-position: 0% 15%;
     background-size: contain;
 
     #first {

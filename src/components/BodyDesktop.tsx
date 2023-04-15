@@ -29,20 +29,41 @@ const BodyDesktop = () => {
           </div>
         </Container>
       </article>
-      <article className="d-flex" id="second">
-        <figure className="mx-5">
+      <article className='d-flex' id='second'>
+        <figure className='mx-5'>
           <div></div>
         </figure>
-        <div className="d-flex flex-column px-5 justify-content-center">
-          <h3 className="h2 mb-4 px-5 mx-5">State of the Art infrastructure</h3>
-          <p className="w-75 px-5 mx-5">
+        <div className='d-flex flex-column px-5 justify-content-center'>
+          <h3 className='h2 mb-4 px-5 mx-5'>State of the Art infrastructure</h3>
+          <p className='w-75 px-5 mx-5'>
             With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
             This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
           </p>
         </div>
       </article>
-      <article id="third">
-
+      <article id='third' className='d-flex align-items-center'>
+        <div className='d-flex'>
+          <figure className='w-50'>
+            <div></div>
+          </figure>
+          <div className='w-50 px-5 mx-5'>
+            <div className='w-75'>
+              <h3 className='mb-4'>Free, open, simple</h3>
+              <p>
+                Blogr is a free and open source application backed by a large community of helpful developers. It supports
+                features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+                and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+              </p>
+            </div>
+            <div className='w-75 mt-5'>
+              <h3 className='mb-4'>Powerful tooling</h3>
+              <p>
+                Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.
+              </p>
+            </div>
+          </div>
+        </div>
       </article>
     </main>
   )
